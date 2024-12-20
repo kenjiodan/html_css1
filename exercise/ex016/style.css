@@ -1,33 +1,30 @@
-@charset "UFT-8";
+@charset "UTF-8";
 
-*{
-    /*height: 100%;*/
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-image: linear-gradient(to bottom, #159A9C, #002333);
-
+    background-image: linear-gradient(to bottom, rgba(88, 88, 255, 0.747), rgba(43, 39, 255, 0.87));
+    background-attachment: fixed;
 }
+
 main {
     background-color: white;
-    border-radius: 10px;
-    width: 600px;
-    box-shadow: 5px 5px 15px #000e149d;
     padding: 10px;
+    width: 600px;
     margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 20px rgba(1, 1, 82, 0.521);
 }
 
 h1 {
-    color: #159A9C;
+    color: chocolate;
     text-align: center;
-    text-shadow: 1px 1px 0px #107274c9;
-}
-
-h2{
-    color: #002333;
 }
 
 p {
     text-align: justify;
+    
+    
 }
