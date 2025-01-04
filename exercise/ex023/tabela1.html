@@ -6,6 +6,7 @@
     <style>
         table {
             border-collapse: collapse;
+            height: 400px;
             width: 400px;
         }
 
@@ -15,19 +16,32 @@
 
         td {
             border: 1px solid black;
+            text-align: center; /*Alinhamento Horizontal*/
+            vertical-align: middle;  /*Alinhamento Vertical*/
             padding: 8px;
+        }
+
+        .salario {
+            text-align: right;
         }
 
     </style>
     <title>Tabelas</title>
 </head>
 <body>
-    <h1>Tabelas em HTML</h1>
+    <h1>Tabelas em HTML inglés</h1>
+    <!--
+        Hierarquia de Tabelas (simples)
+        Table = tabela
+            Table Row = linha de tabela
+                Table Header = cabeçalho de tabela
+                Table Data = dado da tabela
+    -->
     <table>
         <tr>
             <td>A1</td>
             <td>B1</td>
-            <td>C1</td>
+            <td class="salario">C1</td>
         </tr>
         <tr class="linha">
             <td>A2</td>
@@ -37,7 +51,7 @@
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="salario">C3</td>
         </tr>
         <tr class="linha">
             <td>A4</td>
@@ -50,7 +64,5 @@
             <td>C5</td>
         </tr>
     </table>
-    <h2>Tabela mais complexa</h2>
-    <p>...</p>
 </body>
 </html>
